@@ -4,8 +4,10 @@
   "private": true,
   "description": "SmartMed Vision - Explainable Pneumonia Detection & Localization",
   "scripts": {
+    "start": "start.bat",
     "dev": "npm --prefix frontend run dev",
     "dev:backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "dev:all": "start cmd /k \"python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload\" && npm --prefix frontend run dev",
     "build": "npm --prefix frontend run build",
     "preview": "npm --prefix frontend run preview"
   }
