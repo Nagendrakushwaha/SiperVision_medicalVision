@@ -1,0 +1,37 @@
+dataset:
+  root: "rsna-pneumonia-detection-challenge"
+  alt_root: "F:/SmartMedVision/data/rsna"
+  train_images_dir: "stage_2_train_images"
+  train_labels_file: "stage_2_train_labels.csv"
+  detailed_class_info_file: "stage_2_detailed_class_info.csv"
+  processed_dir: "data/processed"
+  metadata_dir: "data/metadata"
+
+training:
+  model: "resnet18"
+  image_size: 224
+  batch_size: 8
+  epochs: 5
+  min_epochs: 1
+  max_epochs: 100
+  learning_rate: 0.0001
+  weight_decay: 0.00001
+  num_workers: 0
+  seed: 42
+  early_stopping_patience: 2
+  train_split: 0.70
+  val_split: 0.15
+  test_split: 0.15
+  class_weights: true
+  save_checkpoints: true
+
+hardware:
+  device: "auto"
+  force_cpu: false
+  num_threads: 6
+
+paths:
+  checkpoints_dir: "models/checkpoints"
+  models_metadata_dir: "models/metadata"
+  reports_dir: "reports"
+  experiments_dir: "experiments"

@@ -1,0 +1,44 @@
+{
+  "dataset_name": "RSNA Pneumonia Detection Challenge",
+  "dataset_root": "F:\\project\\PROJECT\\SmartVision\\rsna-pneumonia-detection-challenge",
+  "total_images": 26684,
+  "total_patients": 26684,
+  "positive_cases": 6012,
+  "negative_cases": 20672,
+  "positive_percentage": 22.53,
+  "negative_percentage": 77.47,
+  "total_bounding_boxes": 9555,
+  "image_dimensions": "1024x1024",
+  "missing_files": 0,
+  "invalid_files": 0,
+  "duplicate_patient_ids": 0,
+  "box_distribution": {
+    "0_boxes": 20672,
+    "1_box": 2614,
+    "2_boxes": 3266,
+    "3_or_more_boxes": 132
+  },
+  "splits": {
+    "train": {
+      "patients": 18678,
+      "images": 18678,
+      "positive": 4208,
+      "negative": 14470,
+      "positive_percentage": 22.53
+    },
+    "validation": {
+      "patients": 4003,
+      "images": 4003,
+      "positive": 902,
+      "negative": 3101,
+      "positive_percentage": 22.53
+    },
+    "test": {
+      "patients": 4003,
+      "images": 4003,
+      "positive": 902,
+      "negative": 3101,
+      "positive_percentage": 22.53
+    }
+  }
+}

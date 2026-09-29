@@ -1,0 +1,50 @@
+[
+  {
+    "model_id": "resnet18",
+    "model_name": "ResNet18",
+    "parameters": 11177538,
+    "model_size_mb": 42.68,
+    "device": "CPU",
+    "runs": 25,
+    "avg_latency_ms": 57.7,
+    "p50_latency_ms": 50.79,
+    "p95_latency_ms": 76.65,
+    "min_latency_ms": 46.61,
+    "max_latency_ms": 150.05,
+    "throughput_fps": 17.33,
+    "status": "trained",
+    "timestamp": "2026-09-28T16:37:24Z"
+  },
+  {
+    "model_id": "mobilenet",
+    "model_name": "MobileNetV3-Small",
+    "parameters": 1519906,
+    "model_size_mb": 5.84,
+    "device": "CPU",
+    "runs": 25,
+    "avg_latency_ms": 23.11,
+    "p50_latency_ms": 22.67,
+    "p95_latency_ms": 26.31,
+    "min_latency_ms": 18.32,
+    "max_latency_ms": 27.86,
+    "throughput_fps": 43.27,
+    "status": "trained",
+    "timestamp": "2026-09-28T16:37:25Z"
+  },
+  {
+    "model_id": "efficientnet",
+    "model_name": "EfficientNet-B0",
+    "parameters": 4010110,
+    "model_size_mb": 15.46,
+    "device": "CPU",
+    "runs": 25,
+    "avg_latency_ms": 66.41,
+    "p50_latency_ms": 56.71,
+    "p95_latency_ms": 146.48,
+    "min_latency_ms": 46.99,
+    "max_latency_ms": 181.85,
+    "throughput_fps": 15.06,
+    "status": "trained",
+    "timestamp": "2026-09-28T16:37:28Z"
+  }
+]

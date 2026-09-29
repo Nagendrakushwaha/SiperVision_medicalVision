@@ -1,0 +1,2 @@
+epoch,train_loss,train_accuracy,validation_loss,validation_accuracy,learning_rate,epoch_duration,timestamp
+1,0.6815,71.9,0.6007,54.18,0.01,1893.15,2026-09-28T17:58:01.321941

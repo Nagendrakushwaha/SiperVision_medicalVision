@@ -1,0 +1,12 @@
+{
+  "name": "smartvision-root",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SmartMed Vision - Explainable Pneumonia Detection & Localization",
+  "scripts": {
+    "dev": "npm --prefix frontend run dev",
+    "dev:backend": "python -m uvicorn backend.app.main:app --host 127.0.0.1 --port 8000 --reload",
+    "build": "npm --prefix frontend run build",
+    "preview": "npm --prefix frontend run preview"
+  }
+}
