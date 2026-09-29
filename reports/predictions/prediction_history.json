@@ -1,5 +1,17 @@
 [
   {
+    "id": "PRED-110625",
+    "timestamp": "18:18:30",
+    "date": "2026-09-29",
+    "model": "resnet18",
+    "prediction": "Pneumonia",
+    "probability": "61.53%",
+    "pneumonia_prob": 61.53,
+    "latency_ms": 85.03,
+    "image_identifier": "IMG-181830",
+    "checkpoint": "models\\checkpoints\\resnet18\\best.pth"
+  },
+  {
     "id": "PRED-428788",
     "timestamp": "18:07:08",
     "date": "2026-09-29",
